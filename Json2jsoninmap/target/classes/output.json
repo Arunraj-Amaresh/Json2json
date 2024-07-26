@@ -1,0 +1,103 @@
+{
+  "FIXML" : {
+    "Body" : {
+      "XferTrnAddRequest" : {
+        "XferTrnAddRq" : {
+          "XferTrnDetail" : {
+            "PartTrnRec" : [ {
+              "AcctId" : "106320225411003",
+              "TrnAmt" : {
+                "amountValue" : "10000",
+                "currencyCode" : "USD"
+              }
+            }, {
+              "AcctId" : "109582560005521",
+              "TrnAmt" : {
+                "amountValue" : "50000",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "109580169810001",
+              "TrnAmt" : {
+                "amountValue" : "50000",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "109582560005521",
+              "TrnAmt" : {
+                "amountValue" : "9000",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "109580125454001",
+              "TrnAmt" : {
+                "amountValue" : "9000",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "109582560005521",
+              "TrnAmt" : {
+                "amountValue" : "75000",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "109580169808001",
+              "TrnAmt" : {
+                "amountValue" : "75000",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "109582560005521",
+              "TrnAmt" : {
+                "amountValue" : "13500",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "109580125454001",
+              "TrnAmt" : {
+                "amountValue" : "13500",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "109582560005521",
+              "TrnAmt" : {
+                "amountValue" : "714741",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "109582560005521",
+              "TrnAmt" : {
+                "amountValue" : "4500",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "109580125481001",
+              "TrnAmt" : {
+                "amountValue" : "4500",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "106320125995060",
+              "TrnAmt" : {
+                "amountValue" : "714741",
+                "currencyCode" : "INR"
+              }
+            }, {
+              "AcctId" : "106320225995060",
+              "TrnAmt" : {
+                "amountValue" : "10000",
+                "currencyCode" : "USD"
+              }
+            }, {
+              "AcctId" : "HARDCODED_ACCT_ID",
+              "TrnAmt" : {
+                "amountValue" : "HARDCODED_AMOUNT",
+                "currencyCode" : "HARDCODED_CURRENCY"
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }
+}

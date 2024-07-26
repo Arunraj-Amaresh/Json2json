@@ -1,0 +1,2636 @@
+{
+	"ServiceRequest": {
+		"RequestHeader": {
+			"Service": "BackOffice",
+			"Operation": "Batch",
+			"Credentials": {
+				"Name": "SUPERVISOR"
+			},
+			"ReplyFormat": "FULL",
+			"TargetSystem": "KOTAK",
+			"SourceSystem": "ZONE1",
+			"NoRepair": "Y",
+			"NoOverride": "Y",
+			"TransactionControl": "NONE",
+			"CreationDate": "2019-01-31"
+		},
+		"BatchRequest": {
+			"ServiceRequest": [
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--1",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "1"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "0"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "106320225411003"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "06320225990103"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "06320225990103"
+						},
+						"CustomerMnemonic": {
+							"__prefix": "ns2",
+							"__text": "999999"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "CN"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "C"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "510"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "10000"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "USD"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "JDA SDHASJ DK"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "999999"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "JDA SDHASJ DK"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"PayReceiveFlag": {
+							"__prefix": "ns2",
+							"__text": "P"
+						},
+						"SettlementTypeVia": {
+							"__prefix": "ns2",
+							"__text": "B"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "N"
+						},
+						"SettlementPartyAddress": {
+							"__prefix": "ns2",
+							"__text": "JDA SDHASJ DK"
+						},
+						"SettlementAccountAlternativeAccNo": {
+							"__prefix": "ns2",
+							"__text": "106320225411003"
+						},
+						"NostroMnemonic": {
+							"__prefix": "ns2",
+							"__text": "USIRVT"
+						},
+						"MainTransferMethod": {
+							"__prefix": "ns2",
+							"__text": "SW"
+						},
+						"CounterpartyBankCustId": {
+							"__prefix": "ns2",
+							"__text": "23317279"
+						},
+						"CounterpartyBankBIC": {
+							"__prefix": "ns2",
+							"__text": "CHASUS33XXX"
+						},
+						"CounterpartyBankAddress": {
+							"__prefix": "ns2",
+							"__text": "JP MORGAN CHASE NEW YORK\n\t\t\t\t\tJ P MORGAN CHASE BANK\n\t\t\t\t\tN A NEWYORK NY\n\t\t\t\t\tNew York"
+						},
+						"CounterpartyAccountNo": {
+							"__prefix": "ns2",
+							"__text": "REQWYTYRJH22345RY6U7I"
+						},
+						"CounterpartyAddress": {
+							"__prefix": "ns2",
+							"__text": "JDA SDHASJ DK"
+						},
+						"SWIFTmessageType": {
+							"__prefix": "ns2",
+							"__text": "103"
+						},
+						"ServiceLevel": {
+							"__prefix": "ns2",
+							"__text": "CRED"
+						},
+						"SWIFTChargesFor": {
+							"__prefix": "ns2",
+							"__text": "SHA"
+						},
+						"PaymentDetails": {
+							"__prefix": "ns2",
+							"__text": "TRTDGYJKJKJHM"
+						},
+						"OrderingCustomerAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"OrderingCustomerCustId": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"OrderingCustomerAddress": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED\n\t\t\t\t\tCIPLA HOUSE\n\t\t\t\t\tPENINSULA BUSINESS PK GANPATRO\n\t\t\t\t\tKADAM MARG LOWER PAREL, Mumbai"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--2",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "2"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "2"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"CustomerMnemonic": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "ODAODCCA"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "D"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "227"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "50000"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "Swift Charges"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"CustomerType": {
+							"__prefix": "ns2",
+							"__text": "CO"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"OtherPartyRef": {
+							"__prefix": "ns2",
+							"__text": "0958DIR180300076"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"PayReceiveFlag": {
+							"__prefix": "ns2",
+							"__text": "R"
+						},
+						"SettlementTypeVia": {
+							"__prefix": "ns2",
+							"__text": "T"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"SettlementPartyCustId": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"SettlementPartyAddress": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED\n\t\t\t\t\tCIPLA HOUSE\n\t\t\t\t\tPENINSULA BUSINESS PK GANPATRO\n\t\t\t\t\tKADAM MARG LOWER PAREL\n\t\t\t\t\tMumbai"
+						},
+						"SettlementAccountAlternativeAccNo": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4",
+								"__text": "227-OTTSWIFTCM-OTTSWIFTCM"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--3",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "3"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "3"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "109580169810001"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09580169810001"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09580169810001"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "YP"
+						},
+						"SPSKMnemonic": {
+							"__prefix": "ns2",
+							"__text": "SKSW"
+						},
+						"SPSKCategoryCode": {
+							"__prefix": "ns2",
+							"__text": "69810001"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "C"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "727"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "50000"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "Swift Charges"
+						},
+						"ChargeCategorisationCode": {
+							"__prefix": "ns2",
+							"__text": "YP"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"CustomerType": {
+							"__prefix": "ns2",
+							"__text": "CO"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "N"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4",
+								"__text": "727-OTTSWIFTCM-OTTSWIFTCM"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4",
+								"__text": "0141"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--4",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "4"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "4"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"CustomerMnemonic": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "ODAODCCA"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "D"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "227"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "9000"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "Goods and Services Tax"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"CustomerType": {
+							"__prefix": "ns2",
+							"__text": "CO"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"OtherPartyRef": {
+							"__prefix": "ns2",
+							"__text": "0958DIR180300076"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"PayReceiveFlag": {
+							"__prefix": "ns2",
+							"__text": "R"
+						},
+						"SettlementTypeVia": {
+							"__prefix": "ns2",
+							"__text": "T"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"SettlementPartyCustId": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"SettlementPartyAddress": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED\n\t\t\t\t\tCIPLA HOUSE\n\t\t\t\t\tPENINSULA BUSINESS PK GANPATRO\n\t\t\t\t\tKADAM MARG LOWER PAREL\n\t\t\t\t\tMumbai"
+						},
+						"SettlementAccountAlternativeAccNo": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4",
+								"__text": "227-ServiceTx-OTTSWIFTCM"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--5",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "5"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "5"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "109580125454001"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09580125454001"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09580125454001"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "YI"
+						},
+						"SPSKMnemonic": {
+							"__prefix": "ns2",
+							"__text": "SP145"
+						},
+						"SPSKCategoryCode": {
+							"__prefix": "ns2",
+							"__text": "25454001"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "C"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "727"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "9000"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "Goods and Services Tax"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"CustomerType": {
+							"__prefix": "ns2",
+							"__text": "CO"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "N"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4",
+								"__text": "727-ServiceTx-OTTSWIFTCM"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4",
+								"__text": "0141"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--6",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "6"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "6"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"CustomerMnemonic": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "ODAODCCA"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "D"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "227"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "75000"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "Outward Remittance Charges"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"CustomerType": {
+							"__prefix": "ns2",
+							"__text": "CO"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"OtherPartyRef": {
+							"__prefix": "ns2",
+							"__text": "0958DIR180300076"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"PayReceiveFlag": {
+							"__prefix": "ns2",
+							"__text": "R"
+						},
+						"SettlementTypeVia": {
+							"__prefix": "ns2",
+							"__text": "T"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"SettlementPartyCustId": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"SettlementPartyAddress": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED\n\t\t\t\t\tCIPLA HOUSE\n\t\t\t\t\tPENINSULA BUSINESS PK GANPATRO\n\t\t\t\t\tKADAM MARG LOWER PAREL\n\t\t\t\t\tMumbai"
+						},
+						"SettlementAccountAlternativeAccNo": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4",
+								"__text": "227-OTT_CHRGS-OTT_CHRGS"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--7",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "7"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "7"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "109580169808001"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09580169808001"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09580169808001"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "YP"
+						},
+						"SPSKMnemonic": {
+							"__prefix": "ns2",
+							"__text": "SKOR"
+						},
+						"SPSKCategoryCode": {
+							"__prefix": "ns2",
+							"__text": "69808001"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "C"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "727"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "75000"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "Outward Remittance Charges"
+						},
+						"ChargeCategorisationCode": {
+							"__prefix": "ns2",
+							"__text": "YP"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"CustomerType": {
+							"__prefix": "ns2",
+							"__text": "CO"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "N"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4",
+								"__text": "727-OTT_CHRGS-OTT_CHRGS"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4",
+								"__text": "0141"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--8",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "8"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "8"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"CustomerMnemonic": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "ODAODCCA"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "D"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "227"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "13500"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "Goods and Services Tax"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"CustomerType": {
+							"__prefix": "ns2",
+							"__text": "CO"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"OtherPartyRef": {
+							"__prefix": "ns2",
+							"__text": "0958DIR180300076"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"PayReceiveFlag": {
+							"__prefix": "ns2",
+							"__text": "R"
+						},
+						"SettlementTypeVia": {
+							"__prefix": "ns2",
+							"__text": "T"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"SettlementPartyCustId": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"SettlementPartyAddress": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED\n\t\t\t\t\tCIPLA HOUSE\n\t\t\t\t\tPENINSULA BUSINESS PK GANPATRO\n\t\t\t\t\tKADAM MARG LOWER PAREL\n\t\t\t\t\tMumbai"
+						},
+						"SettlementAccountAlternativeAccNo": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4",
+								"__text": "227-ServiceTx-OTT_CHRGS"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--9",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "9"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "9"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "109580125454001"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09580125454001"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09580125454001"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "YI"
+						},
+						"SPSKMnemonic": {
+							"__prefix": "ns2",
+							"__text": "SP145"
+						},
+						"SPSKCategoryCode": {
+							"__prefix": "ns2",
+							"__text": "25454001"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "C"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "727"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "13500"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "Goods and Services Tax"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"CustomerType": {
+							"__prefix": "ns2",
+							"__text": "CO"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "N"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4",
+								"__text": "727-ServiceTx-OTT_CHRGS"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4",
+								"__text": "0141"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--10",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "10"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "10"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"CustomerMnemonic": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "ODAODCCA"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "D"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "944"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "714741"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "JDA SDHASJ DK"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"CustomerType": {
+							"__prefix": "ns2",
+							"__text": "CO"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"OtherPartyRef": {
+							"__prefix": "ns2",
+							"__text": "0958DIR180300076"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"PayReceiveFlag": {
+							"__prefix": "ns2",
+							"__text": "R"
+						},
+						"SettlementTypeVia": {
+							"__prefix": "ns2",
+							"__text": "T"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"SettlementPartyCustId": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"SettlementPartyAddress": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED\n\t\t\t\t\tCIPLA HOUSE\n\t\t\t\t\tPENINSULA BUSINESS PK GANPATRO\n\t\t\t\t\tKADAM MARG LOWER PAREL\n\t\t\t\t\tMumbai"
+						},
+						"SettlementAccountAlternativeAccNo": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--11",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "11"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "11"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"CustomerMnemonic": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "ODAODCCA"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "D"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "227"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "4500"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "FCC-Goods and Services Tax"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"CustomerType": {
+							"__prefix": "ns2",
+							"__text": "CO"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"OtherPartyRef": {
+							"__prefix": "ns2",
+							"__text": "0958DIR180300076"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"PayReceiveFlag": {
+							"__prefix": "ns2",
+							"__text": "R"
+						},
+						"SettlementTypeVia": {
+							"__prefix": "ns2",
+							"__text": "T"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"SettlementPartyCustId": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"SettlementPartyAddress": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED\n\t\t\t\t\tCIPLA HOUSE\n\t\t\t\t\tPENINSULA BUSINESS PK GANPATRO\n\t\t\t\t\tKADAM MARG LOWER PAREL\n\t\t\t\t\tMumbai"
+						},
+						"SettlementAccountAlternativeAccNo": {
+							"__prefix": "ns2",
+							"__text": "109582560005521"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4",
+								"__text": "227-FCC-GST-FCC-GST"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--12",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "12"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "CPC"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "12"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "109580125481001"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09580125481001"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "09580125481001"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "YL"
+						},
+						"SPSKMnemonic": {
+							"__prefix": "ns2",
+							"__text": "SKX0"
+						},
+						"SPSKCategoryCode": {
+							"__prefix": "ns2",
+							"__text": "25481001"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "C"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "727"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "4500"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "FCC-Goods and Services Tax"
+						},
+						"ChargeCategorisationCode": {
+							"__prefix": "ns2",
+							"__text": "YP"
+						},
+						"RelatedParty": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"CustomerType": {
+							"__prefix": "ns2",
+							"__text": "CO"
+						},
+						"BeneficiaryName": {
+							"__prefix": "ns2",
+							"__text": "CIPLA LIMITED"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "N"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4",
+								"__text": "727-FCC-GST-FCC-GST"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4",
+								"__text": "0141"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--13",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "13"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "FTI"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0000016"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "13"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "106320125995060"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "06320125995060"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "06320125995060"
+						},
+						"CustomerMnemonic": {
+							"__prefix": "ns2",
+							"__text": "999999"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "YX"
+						},
+						"SPSKMnemonic": {
+							"__prefix": "ns2",
+							"__text": "SP101"
+						},
+						"SPSKCategoryCode": {
+							"__prefix": "ns2",
+							"__text": "25995060"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "C"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "902"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "714741"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "Deal Reconciliation"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "N"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "Posting",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--14",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"Posting": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSeqNo": {
+							"__prefix": "ns2",
+							"__text": "14"
+						},
+						"MasterKey": {
+							"__prefix": "ns2",
+							"__text": "3574084"
+						},
+						"EventKey": {
+							"__prefix": "ns2",
+							"__text": "7141138"
+						},
+						"PostingBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"InputBranch": {
+							"__prefix": "ns2",
+							"__text": "0632"
+						},
+						"ProductReference": {
+							"__prefix": "ns2",
+							"__text": "FTI"
+						},
+						"MasterReference": {
+							"__prefix": "ns2",
+							"__text": "0000016"
+						},
+						"EventReference": {
+							"__prefix": "ns2",
+							"__text": "CRE001"
+						},
+						"InternalRecnRef": {
+							"__prefix": "ns2",
+							"__text": "CPC00000012CRE001"
+						},
+						"PostingSeqNo": {
+							"__prefix": "ns2",
+							"__text": "14"
+						},
+						"AccountNumber": {
+							"__prefix": "ns2",
+							"__text": "106320225995060"
+						},
+						"BackOfficeAccountNo": {
+							"__prefix": "ns2",
+							"__text": "06320225995060"
+						},
+						"ExternalAccountNo": {
+							"__prefix": "ns2",
+							"__text": "06320225995060"
+						},
+						"CustomerMnemonic": {
+							"__prefix": "ns2",
+							"__text": "999999"
+						},
+						"AccountType": {
+							"__prefix": "ns2",
+							"__text": "YX"
+						},
+						"SPSKMnemonic": {
+							"__prefix": "ns2",
+							"__text": "SP101"
+						},
+						"SPSKCategoryCode": {
+							"__prefix": "ns2",
+							"__text": "25995060"
+						},
+						"Application": {
+							"__prefix": "ns2",
+							"__text": "TF"
+						},
+						"DebitCreditFlag": {
+							"__prefix": "ns2",
+							"__text": "D"
+						},
+						"TransactionCode": {
+							"__prefix": "ns2",
+							"__text": "401"
+						},
+						"PostingAmount": {
+							"__prefix": "ns2",
+							"__text": "10000"
+						},
+						"PostingCcy": {
+							"__prefix": "ns2",
+							"__text": "USD"
+						},
+						"ValueDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PostingNarrative1": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012 CRE001"
+						},
+						"PostingNarrative2": {
+							"__prefix": "ns2",
+							"__text": "Deal Reconciliation"
+						},
+						"IssueOrContractDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"BankCode1": {
+							"__prefix": "ns2",
+							"__text": "OTHE"
+						},
+						"SettlementAccountUsed": {
+							"__prefix": "ns2",
+							"__text": "N"
+						},
+						"AddMntDelFlag": {
+							"__prefix": "ns2",
+							"__text": "A"
+						},
+						"ExtraData": {
+							"FORCDBT": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"NETTING": {
+								"__prefix": "ns4"
+							},
+							"FORPOST": {
+								"__prefix": "ns4",
+								"__text": "N"
+							},
+							"LOBCOD": {
+								"__prefix": "ns4"
+							},
+							"__prefix": "ns2"
+						},
+						"__prefix": "ns2"
+					}
+				},
+				{
+					"RequestHeader": {
+						"Service": "BackOffice",
+						"Operation": "FXContractDrawdown",
+						"Credentials": {
+							"Name": "SUPERVISOR"
+						},
+						"ReplyFormat": "FULL",
+						"TargetSystem": "KOTAK",
+						"SourceSystem": "ZONE1",
+						"NoRepair": "Y",
+						"NoOverride": "Y",
+						"CorrelationId": "f0db643b-8ade-4b93-97bd-ab1be5e7444c--15",
+						"TransactionControl": "NONE",
+						"CreationDate": "2019-01-31"
+					},
+					"FXContractDrawdown": {
+						"TransactionId": {
+							"__prefix": "ns2",
+							"__text": "f0db643b-8ade-4b93-97bd-ab1be5e7444c"
+						},
+						"TransactionSequenceNo": {
+							"__prefix": "ns2",
+							"__text": "15"
+						},
+						"Branch": {
+							"__prefix": "ns2",
+							"__text": "0958"
+						},
+						"DealType": {
+							"__prefix": "ns2",
+							"__text": "FTI"
+						},
+						"FXContractReference": {
+							"__prefix": "ns2",
+							"__text": "7901724"
+						},
+						"DrawdownReference": {
+							"__prefix": "ns2",
+							"__text": "FTI0000016"
+						},
+						"Customer": {
+							"__prefix": "ns2",
+							"__text": "5551930"
+						},
+						"PurchaseAmount": {
+							"__prefix": "ns2",
+							"__text": "714741"
+						},
+						"PurchaseCurrency": {
+							"__prefix": "ns2",
+							"__text": "INR"
+						},
+						"PurchaseDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"FXContractRate": {
+							"__prefix": "ns2",
+							"__text": "71.4741"
+						},
+						"BuySell": {
+							"__prefix": "ns2",
+							"__text": "S"
+						},
+						"SaleAmount": {
+							"__prefix": "ns2",
+							"__text": "10000"
+						},
+						"SaleCurrency": {
+							"__prefix": "ns2",
+							"__text": "USD"
+						},
+						"SaleDate": {
+							"__prefix": "ns2",
+							"__text": "2019-01-31"
+						},
+						"PurchaseAccountBackOffice": {
+							"__prefix": "ns2",
+							"__text": "09582560005521"
+						},
+						"PurchaseNarrative": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012-CRE001"
+						},
+						"SaleAccountBackOffice": {
+							"__prefix": "ns2",
+							"__text": "06320225990103"
+						},
+						"SaleNarrative": {
+							"__prefix": "ns2",
+							"__text": "0958OTT190000012-CRE001"
+						},
+						"AuthorisedByUser": {
+							"__prefix": "ns2",
+							"__text": "@@AS"
+						},
+						"Reciprocal": {
+							"__prefix": "ns2",
+							"__text": "N"
+						},
+						"__prefix": "ns2"
+					}
+				}
+			],
+			"__prefix": "ns2"
+		},
+		"_xmlns": "urn:control.services.tiplus2.misys.com",
+		"_xmlns:ns2": "urn:messages.service.ti.apps.tiplus2.misys.com",
+		"_xmlns:ns4": "urn:custom.service.ti.apps.tiplus2.misys.com",
+		"_xmlns:ns3": "urn:common.service.ti.apps.tiplus2.misys.com"
+	}
+}
